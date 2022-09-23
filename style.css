@@ -221,6 +221,10 @@ footer {
     hue-rotate(66deg) brightness(123%) contrast(112%);
 }
 
+.icon {
+  align-self: flex-start;
+}
+
 .footer-logo {
   width: 10rem;
   margin-bottom: 1rem;
@@ -299,7 +303,7 @@ footer {
   header {
     background-image: url("./images/bg-hero-mobile.svg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: contain;
   }
 
